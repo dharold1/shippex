@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dharold1.Shippex"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,17 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2d50ecb2-96be-4fb3-ae7e-f478d21d03e6"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2d50ecb2-96be-4fb3-ae7e-f478d21d03e6"
     }
   }
 }
